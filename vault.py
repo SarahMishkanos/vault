@@ -2,7 +2,6 @@ import os
 import shutil
 import argparse
 import json
-import time
 
 
 VAULT_ROOT = os.path.join(os.getcwd(), "Vault")
@@ -104,3 +103,4 @@ elif args.cmd == "semend":
     semend()
 else:
     print("Commands: setsem | add | rename | semend")
+
